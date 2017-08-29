@@ -4,7 +4,7 @@
 
 - Overview of how to create your Bluemix instance of Node Red. 
 
-### 2. ![Prerequisite JavaScript Modules](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/2.%20Prerequisite%20JavaScript%20Modules.md)
+### 2. ![Prerequisite JavaScript Modules](../Chapter%201%20-%20Getting%20Started/2.%20Prerequisite%20JavaScript%20Modules.md)
 
 - Node Red is based on Node.js and JavaScript. If you are not familiar with JavaScript, please take a look at the links in this module. 
 
