@@ -14,7 +14,7 @@ Video length: 1 minute
 ### Instructions
 1. Drag out an inject node onto the workspace. In the payload of the inject node, type in a message. 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/will_this_change%3F.png" width="400">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/will_this_change%3F.png" width="400">
 
 2. Pull out a function node. Edit the function node and type in the body: 
 
@@ -23,24 +23,24 @@ var newMessage = {payload: "replaced msg"};
 return newMessage;
 ```
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/function_replaced.png" width="400">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/function_replaced.png" width="400">
 
 3. Wire together the inject -> function node -> debug node. 
 
-![](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/replaced_flow.png)
+![](../Chapter%201%20-%20Getting%20Started/Screenshots/replaced_flow.png)
 
 4. Click deploy.
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/deploy.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/deploy.png">
 
 5. Inject.
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/inject2.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/inject2.png">
 
 ### Result
 
 "replaced msg" 
 
-![](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/replaced_payload.png)
+![](../Chapter%201%20-%20Getting%20Started/Screenshots/replaced_payload.png)
 
-### [Next module: Displaying Sentiment Score with News >>](https://github.ibm.com/L-Gamerman/NodeRedEducation/tree/master/Chapter%203%20-%20Beginner%20Flows/2.%20Displaying%20Sentiment%20Score%20With%20News)
+### [Next module: Displaying Sentiment Score with News >>](../Chapter%203%20-%20Beginner%20Flows/2.%20Displaying%20Sentiment%20Score%20With%20News)

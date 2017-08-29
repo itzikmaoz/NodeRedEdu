@@ -15,7 +15,7 @@ Video length: 2 minutes
 <h3>Instructions</h3>
 1. Pull out a feedparse node onto the workspace.
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/feedparse_node.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/feedparse_node.png">
 
 2. In the feedparse node, add the xml link of your favorite news outlet in the feed url text box.
 
@@ -23,29 +23,29 @@ Video length: 2 minutes
   
 3. Refresh the node every 2 minutes and name it CNN. 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/feedparse.png" width="400">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/feedparse.png" width="400">
 
 4. Attach a debug node and the sentiment node to the CNN node. 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/sentiment_node.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/sentiment_node.png">
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/debug.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/debug.png">
 
 5. Connect the sentiment node to the second debug node. 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/sentiment_news_flow.png" width="400">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/sentiment_news_flow.png" width="400">
 
 6. In the second debug node, change the output from msg.payload to msg.sentiment
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/sentiment_debug.png" width="400">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/sentiment_debug.png" width="400">
 
 7. Deploy.
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/deploy.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/deploy.png">
 
 ### Result
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/sentiment_news_result.png" height="400">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/sentiment_news_result.png" height="400">
 
 <h3>Sentiment Rubric</h3>
 
@@ -55,4 +55,4 @@ Video length: 2 minutes
 
 - If the number less than zero = negative 
 
-### [Next module: Changing the Sentiment Score to Words >>](https://github.ibm.com/L-Gamerman/NodeRedEducation/tree/master/Chapter%203%20-%20Beginner%20Flows/3.%20Changing%20the%20Sentiment%20Score%20to%20Words)
+### [Next module: Changing the Sentiment Score to Words >>](../Chapter%203%20-%20Beginner%20Flows/3.%20Changing%20the%20Sentiment%20Score%20to%20Words)
