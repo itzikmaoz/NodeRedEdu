@@ -16,7 +16,7 @@ Video length: 1:26 minutes
 
 1. Wire inject > function > debug. 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/count_flow2.png" width=""> 
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/count_flow2.png" width=""> 
 
 2. Edit the function node and type: 
 
@@ -29,24 +29,24 @@ msg.count = context.value;
 return msg;
 ```
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/count_function.png" width="400"> 
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/count_function.png" width="400"> 
 
 3. Edit the debug node and change the output from msg.payload to complete msg object. 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/count_debug.png" width="400">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/count_debug.png" width="400">
 
 4. Deploy.
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/deploy.png" width=""> 
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/deploy.png" width=""> 
 
 5. Inject 4 times. 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/count_final_flow.png" width=""> 
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/count_final_flow.png" width=""> 
 
 ### Result
 
 The context feature is counting the amount of injections in the current deployment in the "count" variable. To refresh the count, re-deploy the flow. 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/count_result.png" height="350"> 
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/count_result.png" height="350"> 
 
-### [Next module: Global Context >>](https://github.ibm.com/L-Gamerman/NodeRedEducation/tree/master/Chapter%204%20-%20Function%20Nodes/2.%20Global%20Context)
+### [Next module: Global Context >>](../Chapter%204%20-%20Function%20Nodes/2.%20Global%20Context)

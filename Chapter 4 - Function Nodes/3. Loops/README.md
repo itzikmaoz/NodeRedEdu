@@ -15,7 +15,7 @@ Video length: 1:27 minutes
 
 1. Wire an inject > function > debug. 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/loop_flow.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/loop_flow.png">
 
 2. Edit the function node and type: 
 
@@ -30,18 +30,18 @@ for (var i = 0; i < 5; i++) {
 return [msgList]; 
 ```
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/loop_function.png" height="400">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/loop_function.png" height="400">
 
 3. Click deploy.
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/deploy.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/deploy.png">
 
 4. Inject. 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/inject2.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/inject2.png">
 
 ### Result: 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/loop_result.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/loop_result.png">
 
 ### [Next module: Parsing HTML Data From a Website >>](https://github.ibm.com/L-Gamerman/NodeRedEducation/edit/master/Chapter%204%20-%20Function%20Nodes/4.%20Parsing%20HTML%20Data%20From%20a%20Website/README.md)

@@ -16,7 +16,7 @@ Video length: 2:18 minutes
 
 1. Wire inject > function > debug twice.
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/flow_w:o_names.png" width="">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/flow_w:o_names.png" width="">
 
 2. Click on the first function node.
 
@@ -29,7 +29,7 @@ msg.payload = context.global.hello();
 return msg;
 ```
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/function_part1.png" width="400">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/function_part1.png" width="400">
 
 3. Click on the second function node.
 
@@ -41,16 +41,16 @@ msg.payload = context.global.hello() + "against itself cannot stand.";
 return msg;
 ```
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/function_part2.png" width="400">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/function_part2.png" width="400">
 
 4. Deploy and inject both flows. 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/flow_w_names.png" width="">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/flow_w_names.png" width="">
 
 ### Result: 
 
 The second flow adds a string to the previous payload, using the global context feature.
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/Global_context_result.png" width="400">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/Global_context_result.png" width="400">
 
-### [Next module: Global Context, Calculating Elapsed Time >>](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%204%20-%20Function%20Nodes/2.%20Global%20Context/Global%20Context%2C%20Calculating%20Elapsed%20Time.md)
+### [Next module: Global Context, Calculating Elapsed Time >>](../Chapter%204%20-%20Function%20Nodes/2.%20Global%20Context/Global%20Context%2C%20Calculating%20Elapsed%20Time.md)

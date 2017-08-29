@@ -19,7 +19,7 @@ This program is based on the content created by Rodger Lea on www.noderedguide.c
 
 1. Wire inject > function1 > delay > function2 > debug.
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/gc_flow.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/gc_flow.png">
 
 2. Edit the first function node in the flow and type:
 
@@ -28,14 +28,14 @@ context.global.startTime = new Date().getTime();
 return msg;
 ```
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/gc_f1.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/gc_f1.png">
 
 3. Edit the delay node
 
 - Action: Delay each message, random delay
 - Between 1 & 5 seconds
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/gc_delay.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/gc_delay.png">
 
 4. Edit the second function node and type: 
 
@@ -45,20 +45,20 @@ var timeElapsed = (currentTime - context.global.startTime);
 msg.payload = "Time elapsed is: " + timeElapsed + " seconds.";
 return msg;
 ```
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/gc_f2.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/gc_f2.png">
 
 5. Deploy 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/deploy.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/deploy.png">
 
 6. Inject! 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/inject2.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/inject2.png">
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/gc_flow_complete.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/gc_flow_complete.png">
 
 ### Results will vary: 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/gc_result.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/gc_result.png">
 
-### [Next module: Loops >>](https://github.ibm.com/L-Gamerman/NodeRedEducation/tree/master/Chapter%204%20-%20Function%20Nodes/3.%20Loops)
+### [Next module: Loops >>](../Chapter%204%20-%20Function%20Nodes/3.%20Loops)
