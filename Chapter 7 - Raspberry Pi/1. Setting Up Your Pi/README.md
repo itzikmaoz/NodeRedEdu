@@ -82,4 +82,4 @@ ssh pi@169.254.63.87 /* example */
 ``` javascript
 passwd
 ```
-![Next module: Working With a Sense Hat >>](https://github.ibm.com/L-Gamerman/NodeRedEducation/tree/master/Chapter%207%20-%20Raspberry%20Pi/2.%20SenseHat)
+![Next module: Working With a Sense Hat >>](../Chapter%207%20-%20Raspberry%20Pi/2.%20SenseHat)

@@ -12,7 +12,7 @@ This module will explain how to change the lights on a SenseHat.
 
 1. Wire SenseHat In -> delay -> function -> delay -> SenseHat Out.
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/sense_flow.png" height="">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/sense_flow.png" height="">
 
 2. In the both delay nodes: 
 
@@ -20,7 +20,7 @@ This module will explain how to change the lights on a SenseHat.
   - For: 2 seconds
   - This will slow down the message rate so the colors will not change too quickly.
   
-  <img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/fixed_delay.png" height="500">
+  <img src="../Chapter%201%20-%20Getting%20Started/Screenshots/fixed_delay.png" height="500">
 
 3. In the function node, set the msg.payload = "whatever_colors_you_want".
 

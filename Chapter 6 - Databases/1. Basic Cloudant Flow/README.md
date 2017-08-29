@@ -39,11 +39,11 @@ Option 1:
 
 - Click "New credential". 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/new_cred.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/new_cred.png">
 
 - Click add. 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/new_cloud_cred.png">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/new_cloud_cred.png">
 
 - Click "View credentials". 
 
@@ -51,7 +51,7 @@ Option 1:
 
 - In the Node Red Cloudant node, copy and paste the username and password from your Bluemix credentials to the corresponding text boxes in the node. 
 
-![](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/creds.png)
+![](../Chapter%201%20-%20Getting%20Started/Screenshots/creds.png)
 
 Option 2: 
 
@@ -89,7 +89,7 @@ Option 2:
 
   - Enter the host, username and password from your Cloudant credentials. 
 
-<img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/cloudant_edit2.png" width="500" height="400">
+<img src="../Chapter%201%20-%20Getting%20Started/Screenshots/cloudant_edit2.png" width="500" height="400">
 
   - Database: The name of your Cloudant database
   - Operation: insert
@@ -107,22 +107,22 @@ Option 2:
 
 8. Click the 3 disks on the menu bar to the left.
 
-  <img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/db_menu.png">
+  <img src="../Chapter%201%20-%20Getting%20Started/Screenshots/db_menu.png">
   
 
 9. Click on your database. 
 
-  <img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/nr_db.png">
+  <img src="../Chapter%201%20-%20Getting%20Started/Screenshots/nr_db.png">
 
 10. To check the document's payload, click on the pen symbol to the right of the document box. 
 
-  <img src="https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/db_doc2.png">
+  <img src="../Chapter%201%20-%20Getting%20Started/Screenshots/db_doc2.png">
 
 #### Result:
 
 Now you have a flow that connects to a Cloudant database. 
 
-![](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%201%20-%20Getting%20Started/Screenshots/db_doc_result.png)
+![](../Chapter%201%20-%20Getting%20Started/Screenshots/db_doc_result.png)
 
-### [Next module: Form to Cloudant >>](https://github.ibm.com/L-Gamerman/NodeRedEducation/tree/master/Chapter%206%20-%20Databases/2.%20Form%20to%20Cloudant)
+### [Next module: Form to Cloudant >>](../Chapter%206%20-%20Databases/2.%20Form%20to%20Cloudant)
 
