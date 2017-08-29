@@ -28,13 +28,13 @@ Video Length: 8:36 minutes
 **Note:** You will need to connect the speech to text service from Bluemix to Node-RED for the node to work.
 
 1. Head over to bluemix and search for "tone analyzer" in the catalog. Click on it, leave it unbound, choose the standard plan and create the service.
-![picture alt](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/Service.png "Service")
+![picture alt](../Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/Service.png "Service")
 2. Open your Node-RED application and drag out a tone analyzer node. Double click on it and you will be required to enter a username and password. Head back over to bluemix, click on service credentials and view credentials. Copy the username and password into the tone analyzer node in Node-RED.
 3. Configure the tone analyzer node as such
-![picture alt](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/Tone%20Analyzer%20Config.png "TA Config")
+![picture alt](../Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/Tone%20Analyzer%20Config.png "TA Config")
 
 4. Drag out an inject node and a debug node and wire the flows together like this
-![picture alt](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/Flow.png "Flow")
+![picture alt](../Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/Flow.png "Flow")
 
 5. Click on the black triangle to expand the reviews. In Node-RED double click the inject node, change the payload to a string and enter the first review below: 
 <details>
@@ -44,19 +44,19 @@ Video Length: 8:36 minutes
  <p>"Great price, very light weight, really easy to install, nice picture quality, good sound and I love that there is one remote for everything! Couldn't be more pleased with this purchase." </p>
 </details>
 
-![picture alt](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/Inject%20Config.png "Inject Config")
+![picture alt](../Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/Inject%20Config.png "Inject Config")
 
 6. Double click on the debug node and change the payload from msg.payload to msg.response
-![picture alt](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/Debug%20Config.png "Debug Config")
+![picture alt](../Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/Debug%20Config.png "Debug Config")
 7. Your result should look something like this. Tone Analyzer provides you with a wealth of information that can be used to respond to customers appropriately or just to gain insight
-![picture alt](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/Initial%20Results.png "Initial Results")
+![picture alt](../Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/Initial%20Results.png "Initial Results")
 
 8. Expand both the document tone object and sentences tone array and keep expanding until you see the scores for each of the tones.
 
-![picture alt](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/Expanded%20Results.png "Expanded Results")
+![picture alt](../Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/Expanded%20Results.png "Expanded Results")
 
 9. If you want to solely focus on one tone category, head back into the tone analyzer node and select the one you want. You can also to choose sentence analysis off by setting it to false.
-![picture alt](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/Individual%20Config.png "Individual Config")
+![picture alt](../Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/Individual%20Config.png "Individual Config")
 
 10. Now do the same steps with the second review from step 5 and compare the two results. They should be very different.
 
@@ -82,21 +82,21 @@ To get further details on each of these models, check out this [link](https://ww
 **Note:** You will need to connect the speech to text service from Bluemix to Node-RED for the node to work.
 
 1. Head over to bluemix and search for "personality insights" in the catalog. Click on it, leave it unbound, choose the standard plan and create the service.
-![picture alt](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/PSService.png "Service")
+![picture alt](../Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/PSService.png "Service")
 2. Open your Node-RED application and drag out a personality insights node. Double click on it and you will be required to enter a username and password. Head back over to bluemix, click on service credentials and view credentials. Copy the username and password into the personality insights node in Node-RED.
 3. Configure the personality insights node as such
-![picture alt](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/PS%20Config.png "PS Config")
+![picture alt](../Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/PS%20Config.png "PS Config")
 
 4. Drag out an inject node and a debug node and wire the flows together like this
-![picture alt](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/PS%20Flow.png "Flow")
+![picture alt](../Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/PS%20Flow.png "Flow")
 
-5. Double click the inject node, change the payload to a string and enter the sample text [here](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%2C%20Personality%20Insights%20%26%20Visual%20Recognition/Ginni%20Speech.txt): 
+5. Double click the inject node, change the payload to a string and enter the sample text [here](../Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%2C%20Personality%20Insights%20%26%20Visual%20Recognition/Ginni%20Speech.txt): 
 
-![picture alt](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/PS%20Inject%20Config.png "Inject Config")
+![picture alt](../Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/PS%20Inject%20Config.png "Inject Config")
 
 6. Double click on the debug node and change the payload from msg.payload to msg.insights
-![picture alt](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/PS%20Debug%20Config.png "Debug Config")
+![picture alt](../Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/PS%20Debug%20Config.png "Debug Config")
 7. Your result should look something like this. Tone Analyzer provides you with a wealth of information that can be used to respond to customers appropriately or just to gain insight
-![picture alt](https://github.ibm.com/L-Gamerman/NodeRedEducation/blob/master/Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/PS%20Initial%20Result.png "Initial Results")
+![picture alt](../Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Tone%20Analyzer%20and%20Personality%20Insights/images/PS%20Initial%20Result.png "Initial Results")
 
-### Click [here](https://github.ibm.com/L-Gamerman/NodeRedEducation/tree/master/Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Visual%20Recognition) to go to the next topic
+### Click [here](../Chapter%205%20-%20Watson%20%26%20Cognitive%20API%20Nodes/Visual%20Recognition) to go to the next topic
