@@ -13,4 +13,4 @@ Video length: 2 minutes
 
 ![Watch the video](https://youtu.be/XBNRLAP9eFw)
 
-### [Next module: String Concatenation & Basic Multiplication >>](https://github.ibm.com/L-Gamerman/NodeRedEducation/tree/master/Chapter%202%20-%20Introduction/2.%20String%20Concatenation%20-%20Basic%20Multiplication)
+### [Next module: String Concatenation & Basic Multiplication >>](../Chapter%202%20-%20Introduction/2.%20String%20Concatenation%20-%20Basic%20Multiplication)
